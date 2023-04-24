@@ -1,0 +1,385 @@
+* {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+
+header {
+  background-image: url(./img/logoFundo.png);
+  background-size: contain;
+  background-position-y: top;
+
+
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.banner .banner-text {
+  font-size: 32px;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.banner .banner-text h1 {
+  font-size: 32px;
+}
+
+.banner .banner-text p {
+  display: none;
+}
+
+
+.logo {
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 2%;
+  padding: 50px;
+
+}
+
+#saibamais {
+  margin-top: 50%;
+  margin-left: 18%;
+
+}
+
+#logoMarca {
+  display: none;
+}
+
+.container img {
+  width: 100%;
+}
+
+.faca-mais .container img {
+  width: 100%;
+}
+
+.btn {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.galeria {
+  width: 95%;
+  margin-left: 15vw;
+}
+
+.galeriaEmpresa {
+  margin-top: -2px;
+}
+
+.foto {
+  width: 250px;
+  height: 250px;
+  margin-right: 70vw;
+  margin-left: 35vw;
+}
+
+/* .button-proxima-foto {
+  margin-top: 220px;
+  position: absolute;
+  right: 20px;
+} */
+
+
+/* .button-voltar {
+  margin-top: 220px;
+  position: absolute;
+  left: 20px;
+} */
+
+.Nossoservico {
+
+  width: 100%;
+}
+
+
+
+.BannerFoto {
+  background-size: contain;
+  background-attachment: scroll;
+}
+
+.BannerFoto h1 {
+  margin-top: 45%;
+}
+
+#BannerCliente {
+  height: 99vw;
+}
+
+
+#BannerCliente h1 {
+  margin-top: 115px;
+}
+
+
+#serv {
+
+  margin-top: -50px;
+}
+
+
+.imagemSobre {
+  margin-left: 0;
+}
+
+.galeria {
+  width: 71%;
+  height: 410px;
+  margin-left: 14vw;
+}
+
+.BannerGaleria h1 {
+  margin-top: 152px;
+}
+
+
+.btnServico {
+  margin-left: 30.2%;
+}
+
+.galeria-container {
+
+  margin-top: 18px;
+
+}
+
+/* .triangulo {
+  margin-top: -79px;
+} */
+
+/* .triangulo2 {
+  margin-top: -2px;
+}
+
+.triangulo3 {
+  margin-top: -134px;
+}
+
+.triangulo4 {
+  margin-top: -131px;
+} */
+
+
+
+.triangulo5 {
+  /* height: 40vw; */
+  position: absolute;
+  margin-top: 60px;
+}
+
+/* .triangulo6 {
+  display: block;
+  margin-top: -113px;
+  width: 1400px;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 106vw solid #1e1e1e;
+} */
+/* 
+.triangulo7 {
+
+  margin-top: -122px;
+  width: 1000px;
+  height: 0;
+  border-top: 80px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 100vw solid #1e1e1e;
+} */
+
+.galeria-container .galeria-items {
+  width: 150px;
+
+}
+
+
+
+.container-clientes {
+  height: 120px;
+  width: 310px;
+}
+
+.slick-list {
+  height: 640px;
+
+}
+
+.gallery-wrapper {
+  margin-top: -8px;
+  width: 250px;
+}
+
+.item {
+  width: 139px;
+  height: 94px;
+  margin-top: 12px;
+}
+
+.gallery {
+  display: flex;
+  margin-top: -8px;
+  flex-flow: row nowrap;
+  gap: 15px;
+}
+
+.whatsapp i {
+  padding: 10.5px;
+  font-size: 25px;
+  display: flex;
+  background-color: #1ec213;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.responsiva {
+  display: flex;
+
+}
+
+
+.instagram i {
+  display: block
+}
+
+.instagram {
+  display: block;
+  padding: 10px;
+  height: 46px;
+  font-size: 25px;
+  background: linear-gradient(#e66465, #9198e5);
+  color: white;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.redesSociais a,
+.zap,
+.insta {
+  display: none;
+}
+
+.responsiva {
+  display: flex;
+  margin-top: 25px;
+  width: 56%;
+}
+
+#btnTopo {
+  margin-right: 124px;
+}
+
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 20px;
+  }
+
+  .banner .banner-text {
+    padding: 15px;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 28px;
+  }
+
+  .banner .banner-text p {
+    font-size: 14px;
+  }
+
+  .servicos p {
+    font-size: 14px;
+    margin-right: 10px;
+
+  }
+
+  .faca-mais .container {
+    flex-direction: column;
+  }
+
+  .faca-mais-text {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+
+  .ul {
+    left: 0;
+  }
+
+  .open-btn {
+    display: block;
+    margin-right: 40px;
+  }
+}
+
+.close-btn {
+  margin-right: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 999;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 20px;
+}
+
+#fecharModal {
+  display: flex;
+  justify-content: end;
+  margin-right: 45px;
+  font-size: 25px;
+}
+
+
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.5s ease;
+  background-color: #111;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 5px;
+  margin: 10px 0;
+  border-bottom: solid 2px #0821b1;
+
+}

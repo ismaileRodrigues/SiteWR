@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" media="screen and (max-width:800px)" href="./responsivo.css">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WR Locações e Serviços</title>
+</head>
+
+<body>
+  <!-- header-->
+  <header id="heade">
+    <!--container-->
+    <div class="container">
+
+      <nav>
+        <a href="#heder">
+          <div class="logo"></div>
+        </a>
+        <ul class="ul">
+          <a href="#heade" class="smooth-scroll" onclick="closeNav()">Inicio</a>
+          <a href="#sobre" class="smooth-scroll" onclick="closeNav()">Sobre</a>
+          <a href="#servico" class="smooth-scroll" onclick="closeNav()">Serviços</a>
+          <a href="#galeria" class="smooth-scroll" onclick="closeNav()">Galeria</a>
+          <a href="#BannerCliente" class="smooth-scroll" onclick="closeNav()">Clientes</a>
+          <a href="#contato" class="smooth-scroll" onclick="closeNav()">Contato</a>
+          <span class="close-btn" onclick="closeNav()">&times;</span>
+        </ul>
+        <span class="open-btn" onclick="openNav()">&#9776;</span>
+      </nav>
+
+      <section class="banner">
+        <div class="banner-text">
+          <h1>WR Locações e Serviços</h1>
+          <p> Trabalhando na busca da satisfação do cliente.</p>
+          <a onclick="abrirModal()" class="btn">Entrar em contato</a>
+
+        </div>
+      </section>
+    </div>
+  </header>
+  <!--Sobre-->
+  <div class="triangulo">triangulo</div>
+  <section class="faca-mais" id="sobre">
+    <!--Container-->
+    <div class="container">
+      <div class="faca-mais-text">
+
+        <div class="coluna1">
+          <h3>Sobre</h3>
+
+          <p>A WR Lo﻿ca﻿ções e Serviços é uma empresa sólida, com 7 anos no mercado, atua na área de fabricação,
+            montagem e manutenção industrial, atendendo em todo território nacional e internacional.
+            Nossa equipe de profissionais está preparada para bem atender a sua empresa. Possuímos vasta experiência em
+            montagens e manutenções industriais, oferecendo serviços de excelente qualidade.
+          </p>
+
+          <h3>Visão</h3>
+          <p>Temos a Visão de ser referência em soluções e serviços em fabricação, montagem e manutenção industrial. E
+            na satisfação do cliente.</p>
+
+          <h3>Valores</h3>
+          <p>
+            Nossos Valores são compromisso e comprometimento com o cliente e entregas, confiabilidade nos serviços
+            prestados, inovação nas soluções oferecidas e valorização do capital humano.
+          </p>
+          <h3>Missão</h3>
+          <p>
+            Nossa Missão é levar soluções ágeis a competitivas em fabricação, montagem e manutenção industrial a seus
+            clientes onde eles estiverem, com qualidade, comprometimento e custos adequados a seus negócios.
+          </p>
+        </div>
+
+      </div>
+
+      <div class="imagemSobre">
+        <a onclick="abrirModal()" class="btn" id="saibamais">Entrar em contato</a>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!--serviços-->
+  <div class="servicos" id="servico">
+    <div class="triangulo2"></div>
+    <div class="container-servicos">
+      <div class="banner2">
+        <div class="bannerGaleria">
+          <span class="button-proxima-foto" onclick="seguinte()">▶</span>
+          <span class="button-voltar" onclick="volta()">◀</span>
+          <div class="galeria"></div>
+
+        </div>
+        <div class="triangulo3">
+        </div>
+
+        <section class="NossoServico">
+
+
+          <div class="textoServicos">
+            <h2 id="serv">Serviços</h2>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>Caldeiraria leve até a pesada
+            </p>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              Fabricação e Montagem de Isolamento térmico e funilaria
+            </p>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              Calandragem de tubos, jateamento e pintura
+            </p>
+            <p>
+              <i class="fa fa-cGaleria/heck" aria-hidden="true"></i>
+              Fabricação, montagem e manutenção industrial
+            </p>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              Manutenção industrial
+            </p>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              Montagem mecânica e instalação em toda área industrial
+            </p>
+            <p>
+              <i class="fa fa-check" aria-hidden="true"></i>
+              Calderaria: fabricação e montagem de ciclones, moegas, silos metálicos, tanques de inox e aço carbono,
+              vasos
+              de pressão,<br> correias transportadoras, roscas transportadoras, plataformas, passarelas, <br>galpões
+              industriais e tubulações
+            </p>
+
+
+          </div>
+
+        </section>
+
+
+      </div>
+    </div>
+  </div>
+  <!--galeria-->
+  <div class="triangulo4"></div>
+
+
+
+  <div class="BannerFoto" id="galeria">
+    <a href="#heade">
+      <div class="logo" id="logoMarca"></div>
+    </a>
+    <h1>Galeria</h1>
+  </div>
+  <main class="galeriaEmpresa">
+    <a onclick="abrirModal()" class="btn btnServico">Entrar em contato</a>
+
+    <div class="galeria-container">
+      <a href="./img/Galeria/galeria_1_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_1_mini.jpg" alt="estrutura" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/estrutura.jpeg" class="a">
+        <img src="./img/Galeria/estrutura.jpeg" alt="estrutura" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/pecas.jpg" class="a">
+        <img src="./img/Galeria/pecas.jpg" alt="pecas" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/solda.jpg" class="a">
+        <img src="./img/Galeria/solda.jpg" alt="solda" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/cone.jpg" class="a">
+        <img src="./img/Galeria/cone.jpg" alt="cone" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/tambor.jpeg" class="a">
+        <img src="./img/Galeria/tambor.jpeg" alt="tambor" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/tanques.jpg" class="a">
+        <img src="./img/Galeria/tanques.jpg" alt="tanques" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/pont.jpg" class="a">
+        <img src="./img/Galeria/pont.jpg" alt="pont" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/pintura.jpg" class="a">
+        <img src="./img/Galeria/pintura.jpg" alt="pintura" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/soldando.jpeg" class="a">
+        <img src="./img/Galeria/soldando.jpeg" alt="soldando" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/caminhao2.jpg" class="a">
+        <img src="./img/Galeria/caminhao2.jpg" alt="caminhao2" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/caminhao3.jpg" class="a">
+        <img src="./img/Galeria/caminhao3.jpg" alt="caminhao3" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/dds.jpeg" class="a">
+        <img src="./img/Galeria/dds.jpeg" alt="dds" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/dds1.jpeg" class="a">
+        <img src="./img/Galeria/dds1.jpeg" alt="dds1" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/galeria_8_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_8_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+
+      <a href="./img/Galeria/galeria_6_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_6_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/galeria_5_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_5_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/galeria_12_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_12_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/galeria_10_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_10_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+      <a href="./img/Galeria/galeria_11_mini.jpg" class="a">
+        <img src="./img/Galeria/galeria_11_mini.jpg" alt="pessoas" class="galeria-items">
+      </a>
+    </div>
+
+  </main>
+
+  <div class="triangulo6"></div>
+
+  <div id="BannerCliente">
+    <a href="#heade">
+      <img src="img/logo.png" class="logo2" id="logoMarca">
+    </a>
+    <h1>Clientes</h1>
+
+  </div>
+  <div class="triangulo7"></div>
+
+
+  <div class="container-clientes">
+    <button class="arrow-left control" aria-label="Previous image">◀</button>
+    <button class="arrow-right control" aria-label="Next Image">▶</button>
+    <div class="gallery-wrapper">
+      <div class="gallery">
+        <img src="./img/Clientes/ambiental.png" alt="ambiental" class="item current-item">
+
+        <img src="./img/Clientes/itambe.jpg" alt="itambe" class="item current-item">
+        <img src="./img/Clientes/astral.jpg" alt="astral" class="item current-item">
+
+        <img src="./img/Clientes/berneck.png" alt="berneck" class="item current-item">
+
+        <img src="./img/Clientes/coamo.jpg" alt="coamo" class="item current-item">
+
+        <img src="./img/Clientes/concrebras.jpg" alt="concrebras" class="item current-item">
+
+        <img src="./img/Clientes/gebana.jpg" alt="gebana" class="item current-item">
+
+        <img src="./img/Clientes/incepa.jpg" alt="incepa" class="item current-item">
+
+
+        <img src="./img/Clientes/abbade.PNG" alt="megaproj" class="item current-item">
+        <img src="./img/Clientes/megaproj.jpg" alt="megaproj" class="item current-item">
+
+
+        <img src="./img/Clientes/premotec.PNG" alt="premotec" class="item current-item">
+
+        <img src="./img/Clientes/schattdecor.jpg" alt="schattdecor" class="item current-item">
+
+        <img src="./img/Clientes/selecta.png" alt="selecta" class="item current-item">
+
+        <img src="./img/Clientes/smar.jpg" alt="smar" class="item current-item">
+
+        <img src="./img/Clientes/tecnotam.jpg" alt="tecnotam" class="item current-item">
+
+        <img src="./img/Clientes/usicamp.png" alt="usicamp" class="item current-item">
+      </div>
+    </div>
+  </div>
+
+  <!-- Forms -->
+  <dialog>
+
+    <a id="fecharModal"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+
+    <section class="forms" id="form">
+
+
+
+      <form action="https://formsubmit.co/ismailearliene@gmail.com" method="POST">
+
+        <p>Nome completo: </p>
+        <input type="text" name="Nome" id="nome" required>
+        <p>Email: </p>
+        <input type="email" name="Email" id="email" required>
+
+        <p>Telefone:</p><input type="number" name="Telefone" id="tel" required>
+        <p>Mensagem:</p>
+        <textarea name="comentar" name="Mensagem" id="textA" cols="25" rows="5"></textarea>
+
+        <button type="submit" value="Enviar" id="enviaForm">Enviar</button>
+        <input type="hidden" name="_subject" value="Novo envio!">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Novo envio!">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://127.0.0.1:5500/Enviado.html">
+
+      </form>
+    </section>
+
+  </dialog>
+
+  <button id="btnTopo"><i class="fa fa-angle-up" aria-hidden="true"></i>
+  </button>
+  <footer id="contato">
+
+    <div class="Footer">
+      <p>WR Locações e Serviços Montagem e Manutenção </p>
+      <p>Endereço: ROD Aníbal Khury, nº 584 - Bugre</p>
+      <p>CEP: 83.650.000</p>
+    </div>
+    <div class="redesSociais">
+
+      <a href="https://wa.me/message/6NFTKCZR7XM2C1" class="zap">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+        (41)3637-1223
+      </a>
+      <a href="https://instagram.com/wr.servicos.locacoes?igshid=ZDdkNTZiNTM=" class="insta">
+        <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
+      </a>
+    </div>
+    <div class="responsiva">
+      <a href="https://wa.me/message/6NFTKCZR7XM2C1" class="whatsapp">
+        <i class="fa fa-whatsapp" aria-hidden="true"></i>
+      </a>
+      <a href="https://instagram.com/wr.servicos.locacoes?igshid=ZDdkNTZiNTM=" class="instagram">
+        <i class="fa fa-instagram" aria-hidden="true" style="color: white;"></i>
+      </a>
+
+    </div>
+
+
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
